@@ -1,0 +1,115 @@
+    1  docker stop centos7
+    2  exit
+    3  exit
+    4  exit
+    5  cd root
+    6  cd /
+    7  ls
+    8  cd /root
+    9  cd
+   10  cd proc
+   11  cd /
+   12  cd home
+   13  mkdir test1
+   14  ls
+   15  rm -r test1
+   16  ls
+   17  rm test1
+   18  ls
+   19  rm -r test1
+   20  ls
+   21  rm -r test1
+   22  ls
+   23  cd root
+   24  cd /
+   25  pwd
+   26  cd root
+   27  pwd
+   28  mkdirmkdir server_lesson && cd server_lesson
+   29  mkdir server_lesson && cd server_lesson
+   30  pwd
+   31  yum update -y && yum -y install git
+   32  git version
+   33  git init
+   34  touch first.txt
+   35  ls
+   36  ls
+   37  mkdir linux_practice1
+   38  ls
+   39  cd linux_practice1/
+   40  pwd
+   41  mkdir public && touch index.php 
+   42  ls 
+   43  ls public
+   44  cd public
+   45  ls
+   46  touch index.php
+   47  ls
+   48  cd ../../
+   49  ls
+   50  cd linux_practice1/
+   51  ls
+   52  rm index.php
+   53  ls
+   54  cd public/
+   55  ls
+   56  cp index.php index_bk.php
+   57  ls
+   58  cd ../
+   59  cp public tmp
+   60  ls
+   61  cp -r public tmp
+   62  ls
+   63  ls tmp
+   64  rm tmp/index_bk.php 
+   65  ls tmp
+   66  cd ..
+   67  touch README.md
+   68  vi README.md 
+   69  cat README.md 
+   70  cd ..
+   71  pwd
+   72  cd server_lesson/
+   73  mkdir -p linux_practice2/documents
+   74  cd linux_practice
+   75  cd linux_practice2
+   76  cd documents/
+   77  touch gizumo{01..50}.md
+   78  ls
+   79  cd ..
+   80  mkdir trash
+   81  mv documents/gizumo{20..40}.md trash
+   82  ls
+   83  ls trash
+   84  ls documents/
+   85  mkdir .gitignore
+   86  ls
+   87  ls -a
+   88  ¥ls
+   89  ls
+   90  git status
+   91  vi .gitignore
+   92  ls
+   93  ls documents
+   94  ls trash
+   95  vi .gitignore
+   96  ls
+   97  ls -a
+   98  vi .gitignore
+   99  cat .gitignore/
+  100  rm .gitignore/
+  101  rm -r gitignore
+  102  rm -r .gitignore
+  103  ls
+  104  ls -a
+  105  touch .gitignore
+  106  ls
+  107  ls -a
+  108  vi .gitignore 
+  109  git status
+  110  history 300
+  111  echo history 300 > exec_command.log
+  112  ls
+  113  ls exec_command.log 
+  114  cat exec_command.log 
+  115  history 300 > exec_command.log
